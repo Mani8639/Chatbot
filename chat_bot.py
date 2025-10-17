@@ -1,4 +1,4 @@
-
+pip install ollama
 import streamlit as st
 import ollama
 
@@ -35,3 +35,4 @@ if prompt := st.chat_input("Type your message here..."):
 
 # Add assistant reply to chat history
     st.session_state.messages.append({"role": "assistant", "content": reply})
+
